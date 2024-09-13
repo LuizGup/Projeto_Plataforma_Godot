@@ -1,17 +1,90 @@
-[gd_scene load_steps=5 format=3 uid="uid://cxtu2ikb6xsr7"]
+[gd_scene load_steps=14 format=3 uid="uid://cxtu2ikb6xsr7"]
 
 [ext_resource type="Script" path="res://scripts/player.gd" id="1_fy8fs"]
 [ext_resource type="Texture2D" uid="uid://d3jwm15et3t22" path="res://assets/Sprites/Mario_Small_Idle.png" id="1_mgb1r"]
+[ext_resource type="Texture2D" uid="uid://ct8uqpacoxaq1" path="res://assets/Sprites/Mario_Big_Idle.png" id="2_akcod"]
 [ext_resource type="Shape2D" uid="uid://dod0bbo7v3gty" path="res://resources/collision_shapes/Small_Mario_Collision_Shape.tres" id="3_1t3bg"]
+[ext_resource type="Texture2D" uid="uid://c3njnoy5owfh3" path="res://assets/Sprites/Mario_Big_Jump.png" id="3_30vbc"]
+[ext_resource type="Texture2D" uid="uid://crqgheu7ndoxs" path="res://assets/Sprites/Mario_Big_Pole.png" id="4_ax8pb"]
+[ext_resource type="Texture2D" uid="uid://4axg8se7m40x" path="res://assets/Sprites/Mario_Shooting_Idle.png" id="5_n8xhj"]
+[ext_resource type="Texture2D" uid="uid://d3i8ain3y4vfj" path="res://assets/Sprites/Mario_Shooting_Jump.png" id="6_twn6m"]
+[ext_resource type="Texture2D" uid="uid://cwns46e1wprcc" path="res://assets/Sprites/Mario_Shooting_Pole.png" id="7_jm1qr"]
+[ext_resource type="Texture2D" uid="uid://bqfjqbv1vr2oq" path="res://assets/Sprites/Mario_Small_Jump.png" id="9_vktlj"]
+[ext_resource type="Texture2D" uid="uid://ckd7ka2h150dt" path="res://assets/Sprites/Mario_Small_Pole.png" id="10_omy4t"]
+[ext_resource type="Script" path="res://scripts/player_animated_sprite.gd" id="11_y7ode"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_75yin"]
 animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_akcod")
+}],
+"loop": true,
+"name": &"big_idle",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("3_30vbc")
+}],
+"loop": true,
+"name": &"big_jump",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("4_ax8pb")
+}],
+"loop": true,
+"name": &"big_pole",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("5_n8xhj")
+}],
+"loop": true,
+"name": &"shootin_idle",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("6_twn6m")
+}],
+"loop": true,
+"name": &"shootin_jump",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("7_jm1qr")
+}],
+"loop": true,
+"name": &"shooting_pole",
+"speed": 5.0
+}, {
 "frames": [{
 "duration": 1.0,
 "texture": ExtResource("1_mgb1r")
 }],
 "loop": true,
 "name": &"small_idle",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("9_vktlj")
+}],
+"loop": true,
+"name": &"small_jump",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("10_omy4t")
+}],
+"loop": true,
+"name": &"small_pole",
 "speed": 5.0
 }]
 
@@ -22,6 +95,7 @@ script = ExtResource("1_fy8fs")
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_75yin")
 animation = &"small_idle"
+script = ExtResource("11_y7ode")
 
 [node name="Area2D" type="Area2D" parent="."]
 
