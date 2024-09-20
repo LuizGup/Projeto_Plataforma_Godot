@@ -77,6 +77,35 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
+"texture": ExtResource("2_akcod")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_n8xhj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_akcod")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_n8xhj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_akcod")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_n8xhj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_akcod")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_n8xhj")
+}],
+"loop": false,
+"name": &"big_to_shooting",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
 "texture": ExtResource("9_na30f")
 }],
 "loop": true,
@@ -205,9 +234,50 @@ animations = [{
 }, {
 "duration": 1.0,
 "texture": ExtResource("2_akcod")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1_mgb1r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_akcod")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1_mgb1r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_akcod")
 }],
 "loop": false,
 "name": &"small_to_big",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_mgb1r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_n8xhj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1_mgb1r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_n8xhj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1_mgb1r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_n8xhj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1_mgb1r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_n8xhj")
+}],
+"loop": true,
+"name": &"small_to_shooting",
 "speed": 5.0
 }]
 

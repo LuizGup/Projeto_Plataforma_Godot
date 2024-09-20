@@ -4,7 +4,7 @@ class_name player
 
 var gravity = ProjectSettings.get_setting("physics/2d/default_gravity")
 
-enum playernode {
+enum playerMode {
 	SMALL,
 	BIG,
 	SHOOTING
@@ -12,15 +12,17 @@ enum playernode {
 
 
 # referencias
-@onready var animated_sprite_2d = $AnimatedSprite2D
+@onready var animated_sprite_2d = $AnimatedSprite2D as PlayerAnimatedSprite
 @onready var area_collision_shape = $Area2D/AreaCollisionShape
 @onready var body_collision_shape = $BodyCollisionShape
 
 @export_group("Locomotion")
 @export var run_speed_damping = 0.5
-@export var speed = 300.0
+@export var speed = 200.0
 @export var jump_velocity = -350
 @export_group("")
+
+var player_mode = playerMode.SMALL
 
 
 func _physics_process(delta):
@@ -43,5 +45,7 @@ func _physics_process(delta):
 		velocity.x = lerpf(velocity.x, speed * direction, run_speed_damping * delta)
 	else:
 		velocity.x = move_toward(velocity.x, 0, speed * delta)
+		
+	animated_sprite_2d.trigger_animation(velocity, direction, player_mode)
 	
 	move_and_slide()
