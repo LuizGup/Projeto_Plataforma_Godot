@@ -1,0 +1,206 @@
+[gd_scene load_steps=47 format=3 uid="uid://14opns5k1gev"]
+
+[ext_resource type="Texture2D" uid="uid://cytrkfqc2bs32" path="res://assets/PC Computer - Cuphead Dont Deal With the Devil - Funfair Fever Enemies/Funfair Fever Enemies/Hot Dog/lv2-1_hotdog_death_0001.png" id="1_7yntp"]
+[ext_resource type="Script" path="res://scenes/hootdog.gd" id="1_mb2ai"]
+[ext_resource type="Texture2D" uid="uid://bxxnj4ykchu7g" path="res://assets/PC Computer - Cuphead Dont Deal With the Devil - Funfair Fever Enemies/Funfair Fever Enemies/Hot Dog/lv2-1_hotdog_death_0002.png" id="2_khaea"]
+[ext_resource type="Texture2D" uid="uid://cbqy236rduv45" path="res://assets/PC Computer - Cuphead Dont Deal With the Devil - Funfair Fever Enemies/Funfair Fever Enemies/Hot Dog/lv2-1_hotdog_death_0003.png" id="3_n5cpa"]
+[ext_resource type="Texture2D" uid="uid://bsgw15uf7kjr1" path="res://assets/PC Computer - Cuphead Dont Deal With the Devil - Funfair Fever Enemies/Funfair Fever Enemies/Hot Dog/lv2-1_hotdog_death_0004.png" id="4_sibkr"]
+[ext_resource type="Texture2D" uid="uid://wfseeut7eg81" path="res://assets/PC Computer - Cuphead Dont Deal With the Devil - Funfair Fever Enemies/Funfair Fever Enemies/Hot Dog/lv2-1_hotdog_death_0005.png" id="5_d8nc4"]
+[ext_resource type="Texture2D" uid="uid://c0x58jylrpl30" path="res://assets/PC Computer - Cuphead Dont Deal With the Devil - Funfair Fever Enemies/Funfair Fever Enemies/Hot Dog/lv2-1_hotdog_death_0006.png" id="6_w6tg2"]
+[ext_resource type="Texture2D" uid="uid://578i5bj3gbff" path="res://assets/PC Computer - Cuphead Dont Deal With the Devil - Funfair Fever Enemies/Funfair Fever Enemies/Hot Dog/lv2-1_hotdog_death_0007.png" id="7_onis7"]
+[ext_resource type="Texture2D" uid="uid://dqbdkukkok1l4" path="res://assets/PC Computer - Cuphead Dont Deal With the Devil - Funfair Fever Enemies/Funfair Fever Enemies/Hot Dog/lv2-1_hotdog_death_0008.png" id="8_818tx"]
+[ext_resource type="Texture2D" uid="uid://bdyobmgwid7qd" path="res://assets/PC Computer - Cuphead Dont Deal With the Devil - Funfair Fever Enemies/Funfair Fever Enemies/Hot Dog/lv2-1_hotdog_death_explode_0001.png" id="9_g75xb"]
+[ext_resource type="Texture2D" uid="uid://b0w7ejanttvu5" path="res://assets/PC Computer - Cuphead Dont Deal With the Devil - Funfair Fever Enemies/Funfair Fever Enemies/Hot Dog/lv2-1_hotdog_death_explode_0002.png" id="10_av4l4"]
+[ext_resource type="Texture2D" uid="uid://b2j7pvp24bra8" path="res://assets/PC Computer - Cuphead Dont Deal With the Devil - Funfair Fever Enemies/Funfair Fever Enemies/Hot Dog/lv2-1_hotdog_death_explode_0003.png" id="11_2ygg5"]
+[ext_resource type="Texture2D" uid="uid://bp4eplda5q0ix" path="res://assets/PC Computer - Cuphead Dont Deal With the Devil - Funfair Fever Enemies/Funfair Fever Enemies/Hot Dog/lv2-1_hotdog_death_explode_0004.png" id="12_g4f7d"]
+[ext_resource type="Texture2D" uid="uid://u2nvroycho0p" path="res://assets/PC Computer - Cuphead Dont Deal With the Devil - Funfair Fever Enemies/Funfair Fever Enemies/Hot Dog/lv2-1_hotdog_death_explode_0005.png" id="13_jfsc6"]
+[ext_resource type="Texture2D" uid="uid://060h6brrog5q" path="res://assets/PC Computer - Cuphead Dont Deal With the Devil - Funfair Fever Enemies/Funfair Fever Enemies/Hot Dog/lv2-1_hotdog_death_explode_0006.png" id="14_b7c27"]
+[ext_resource type="Texture2D" uid="uid://do4h4xyw0p113" path="res://assets/PC Computer - Cuphead Dont Deal With the Devil - Funfair Fever Enemies/Funfair Fever Enemies/Hot Dog/lv2-1_hotdog_death_explode_0007.png" id="15_nog20"]
+[ext_resource type="Texture2D" uid="uid://dsccqqlfoycqk" path="res://assets/PC Computer - Cuphead Dont Deal With the Devil - Funfair Fever Enemies/Funfair Fever Enemies/Hot Dog/lv2-1_hotdog_death_explode_0008.png" id="16_piwxb"]
+[ext_resource type="Texture2D" uid="uid://d2eo1c4p3cgjo" path="res://assets/PC Computer - Cuphead Dont Deal With the Devil - Funfair Fever Enemies/Funfair Fever Enemies/Hot Dog/lv2-1_hotdog_death_explode_0009.png" id="17_20tj2"]
+[ext_resource type="Texture2D" uid="uid://b12xd3gpwi5as" path="res://assets/PC Computer - Cuphead Dont Deal With the Devil - Funfair Fever Enemies/Funfair Fever Enemies/Hot Dog/lv2-1_hotdog_death_explode_0010.png" id="18_h3puo"]
+[ext_resource type="Texture2D" uid="uid://u8ty2pvklwif" path="res://assets/PC Computer - Cuphead Dont Deal With the Devil - Funfair Fever Enemies/Funfair Fever Enemies/Hot Dog/lv2-1_hotdog_death_explode_0011.png" id="19_ivcu0"]
+[ext_resource type="Texture2D" uid="uid://camuqqr7wj0tv" path="res://assets/PC Computer - Cuphead Dont Deal With the Devil - Funfair Fever Enemies/Funfair Fever Enemies/Hot Dog/lv2-1_hotdog_dance_0001.png" id="20_ns7tg"]
+[ext_resource type="Texture2D" uid="uid://c7w6wu77epojq" path="res://assets/PC Computer - Cuphead Dont Deal With the Devil - Funfair Fever Enemies/Funfair Fever Enemies/Hot Dog/lv2-1_hotdog_dance_0002.png" id="21_hv4ym"]
+[ext_resource type="Texture2D" uid="uid://cbngbtiribb5k" path="res://assets/PC Computer - Cuphead Dont Deal With the Devil - Funfair Fever Enemies/Funfair Fever Enemies/Hot Dog/lv2-1_hotdog_dance_0003.png" id="22_k6we8"]
+[ext_resource type="Texture2D" uid="uid://d1rx1u0a5sy41" path="res://assets/PC Computer - Cuphead Dont Deal With the Devil - Funfair Fever Enemies/Funfair Fever Enemies/Hot Dog/lv2-1_hotdog_dance_0004.png" id="23_2e0n4"]
+[ext_resource type="Texture2D" uid="uid://d0ppnpj7b77ne" path="res://assets/PC Computer - Cuphead Dont Deal With the Devil - Funfair Fever Enemies/Funfair Fever Enemies/Hot Dog/lv2-1_hotdog_dance_0005.png" id="24_wgcyt"]
+[ext_resource type="Texture2D" uid="uid://rcbgpotwi2b3" path="res://assets/PC Computer - Cuphead Dont Deal With the Devil - Funfair Fever Enemies/Funfair Fever Enemies/Hot Dog/lv2-1_hotdog_dance_0006.png" id="25_8m458"]
+[ext_resource type="Texture2D" uid="uid://b1pq4k7cfv4nr" path="res://assets/PC Computer - Cuphead Dont Deal With the Devil - Funfair Fever Enemies/Funfair Fever Enemies/Hot Dog/lv2-1_hotdog_dance_0007.png" id="26_2hsc6"]
+[ext_resource type="Texture2D" uid="uid://12fdaetn0cbc" path="res://assets/PC Computer - Cuphead Dont Deal With the Devil - Funfair Fever Enemies/Funfair Fever Enemies/Hot Dog/lv2-1_hotdog_dance_0008.png" id="27_47a8l"]
+[ext_resource type="Texture2D" uid="uid://6daprpmegf51" path="res://assets/PC Computer - Cuphead Dont Deal With the Devil - Funfair Fever Enemies/Funfair Fever Enemies/Hot Dog/lv2-1_hotdog_dance_0009.png" id="28_41fbp"]
+[ext_resource type="Texture2D" uid="uid://b1facg51yomrp" path="res://assets/PC Computer - Cuphead Dont Deal With the Devil - Funfair Fever Enemies/Funfair Fever Enemies/Hot Dog/lv2-1_hotdog_dance_0010.png" id="29_c4e5d"]
+[ext_resource type="Texture2D" uid="uid://d1cik4ieye850" path="res://assets/PC Computer - Cuphead Dont Deal With the Devil - Funfair Fever Enemies/Funfair Fever Enemies/Hot Dog/lv2-1_hotdog_dance_0011.png" id="30_guy5b"]
+[ext_resource type="Texture2D" uid="uid://yh2wnisa3hi" path="res://assets/PC Computer - Cuphead Dont Deal With the Devil - Funfair Fever Enemies/Funfair Fever Enemies/Hot Dog/lv2-1_hotdog_dance_0012.png" id="31_de2nd"]
+[ext_resource type="Texture2D" uid="uid://b5kuvssy1fa4r" path="res://assets/PC Computer - Cuphead Dont Deal With the Devil - Funfair Fever Enemies/Funfair Fever Enemies/Hot Dog/lv2-1_hotdog_dance_0013.png" id="32_abwwv"]
+[ext_resource type="Texture2D" uid="uid://b3x50fxpj0q6g" path="res://assets/PC Computer - Cuphead Dont Deal With the Devil - Funfair Fever Enemies/Funfair Fever Enemies/Hot Dog/lv2-1_hotdog_dance_0014.png" id="33_yqwrg"]
+[ext_resource type="Texture2D" uid="uid://bf5x2mwg4vd5s" path="res://assets/PC Computer - Cuphead Dont Deal With the Devil - Funfair Fever Enemies/Funfair Fever Enemies/Hot Dog/lv2-1_hotdog_dance_0015.png" id="34_54bdh"]
+[ext_resource type="Texture2D" uid="uid://b1nt7b62hwofy" path="res://assets/PC Computer - Cuphead Dont Deal With the Devil - Funfair Fever Enemies/Funfair Fever Enemies/Hot Dog/lv2-1_hotdog_dance_0016.png" id="35_qk56m"]
+[ext_resource type="Texture2D" uid="uid://ci4f1re4sartq" path="res://assets/PC Computer - Cuphead Dont Deal With the Devil - Funfair Fever Enemies/Funfair Fever Enemies/Hot Dog/lv2-1_hotdog_dance_0017.png" id="36_5yyty"]
+[ext_resource type="Texture2D" uid="uid://cnyw5ijumai7k" path="res://assets/PC Computer - Cuphead Dont Deal With the Devil - Funfair Fever Enemies/Funfair Fever Enemies/Hot Dog/lv2-1_hotdog_dance_0018.png" id="37_476yn"]
+[ext_resource type="Texture2D" uid="uid://2vvfjxfq81pb" path="res://assets/PC Computer - Cuphead Dont Deal With the Devil - Funfair Fever Enemies/Funfair Fever Enemies/Hot Dog/lv2-1_hotdog_dance_0019.png" id="38_bmfb2"]
+[ext_resource type="Texture2D" uid="uid://b2kawtdsjslm8" path="res://assets/PC Computer - Cuphead Dont Deal With the Devil - Funfair Fever Enemies/Funfair Fever Enemies/Hot Dog/lv2-1_hotdog_dance_0020.png" id="39_qg871"]
+[ext_resource type="Texture2D" uid="uid://o0kif44hecth" path="res://assets/PC Computer - Cuphead Dont Deal With the Devil - Funfair Fever Enemies/Funfair Fever Enemies/Hot Dog/lv2-1_hotdog_dance_0021.png" id="40_7gk2b"]
+[ext_resource type="Texture2D" uid="uid://ejkgl1bubjji" path="res://assets/PC Computer - Cuphead Dont Deal With the Devil - Funfair Fever Enemies/Funfair Fever Enemies/Hot Dog/lv2-1_hotdog_dance_0022.png" id="41_lbtps"]
+[ext_resource type="Texture2D" uid="uid://2ydn3dvp2f7x" path="res://assets/PC Computer - Cuphead Dont Deal With the Devil - Funfair Fever Enemies/Funfair Fever Enemies/Hot Dog/lv2-1_hotdog_dance_0023.png" id="42_gma7r"]
+[ext_resource type="Texture2D" uid="uid://diri8005gaecv" path="res://assets/PC Computer - Cuphead Dont Deal With the Devil - Funfair Fever Enemies/Funfair Fever Enemies/Hot Dog/lv2-1_hotdog_dance_0024.png" id="43_u75h8"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_368gp"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_7yntp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_khaea")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_n5cpa")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_sibkr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_d8nc4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_w6tg2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_onis7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_818tx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_g75xb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_av4l4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_2ygg5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_g4f7d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_jfsc6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_b7c27")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_nog20")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_piwxb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_20tj2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_h3puo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_ivcu0")
+}],
+"loop": false,
+"name": &"dead",
+"speed": 15.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("20_ns7tg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_hv4ym")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_k6we8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_2e0n4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_wgcyt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_8m458")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_2hsc6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_47a8l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_41fbp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_c4e5d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_guy5b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_de2nd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_abwwv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_yqwrg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_54bdh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_qk56m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_5yyty")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37_476yn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38_bmfb2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39_qg871")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40_7gk2b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41_lbtps")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42_gma7r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43_u75h8")
+}],
+"loop": true,
+"name": &"walk",
+"speed": 15.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_0dvgx"]
+size = Vector2(20, 26)
+
+[node name="Hotdog" type="Area2D"]
+script = ExtResource("1_mb2ai")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(-4.54747e-13, -5)
+scale = Vector2(0.052, 0.06)
+sprite_frames = SubResource("SpriteFrames_368gp")
+animation = &"walk"
+autoplay = "walk"
+frame = 23
+frame_progress = 1.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_0dvgx")

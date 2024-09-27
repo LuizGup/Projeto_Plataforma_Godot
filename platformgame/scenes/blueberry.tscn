@@ -1,0 +1,140 @@
+[gd_scene load_steps=29 format=3 uid="uid://dpr322cgvlag2"]
+
+[ext_resource type="Texture2D" uid="uid://c4trdkkyi4ju1" path="res://assets/PC Computer - Cuphead Dont Deal With the Devil - Forest Follies Enemies/Bothersome Blueberry/Melt/blob_melt_0001.png" id="1_ddfj6"]
+[ext_resource type="Script" path="res://scenes/blueberry.gd" id="1_h7awf"]
+[ext_resource type="Texture2D" uid="uid://b5tsu1cn7u80d" path="res://assets/PC Computer - Cuphead Dont Deal With the Devil - Forest Follies Enemies/Bothersome Blueberry/Melt/blob_melt_0002.png" id="2_ia7gk"]
+[ext_resource type="Texture2D" uid="uid://cop0uv7u6kmru" path="res://assets/PC Computer - Cuphead Dont Deal With the Devil - Forest Follies Enemies/Bothersome Blueberry/Melt/blob_melt_0003.png" id="3_wl5ws"]
+[ext_resource type="Texture2D" uid="uid://dj4jgsdchkqvy" path="res://assets/PC Computer - Cuphead Dont Deal With the Devil - Forest Follies Enemies/Bothersome Blueberry/Melt/blob_melt_0004.png" id="4_jbm14"]
+[ext_resource type="Texture2D" uid="uid://cqefxftre2172" path="res://assets/PC Computer - Cuphead Dont Deal With the Devil - Forest Follies Enemies/Bothersome Blueberry/Melt/blob_melt_0005.png" id="5_ukd7v"]
+[ext_resource type="Texture2D" uid="uid://c7rra0on40i67" path="res://assets/PC Computer - Cuphead Dont Deal With the Devil - Forest Follies Enemies/Bothersome Blueberry/Melt/blob_melt_0006.png" id="6_denxx"]
+[ext_resource type="Texture2D" uid="uid://dkvel8yx8yx0g" path="res://assets/PC Computer - Cuphead Dont Deal With the Devil - Forest Follies Enemies/Bothersome Blueberry/Melt/blob_melt_0007.png" id="7_n124k"]
+[ext_resource type="Texture2D" uid="uid://by224j7x18bbc" path="res://assets/PC Computer - Cuphead Dont Deal With the Devil - Forest Follies Enemies/Bothersome Blueberry/Melt/blob_melt_0008.png" id="8_eak2y"]
+[ext_resource type="Texture2D" uid="uid://dqh2a8hca0xbo" path="res://assets/PC Computer - Cuphead Dont Deal With the Devil - Forest Follies Enemies/Bothersome Blueberry/Melt/blob_melt_0009.png" id="9_werns"]
+[ext_resource type="Texture2D" uid="uid://cepp5ctymw3sp" path="res://assets/PC Computer - Cuphead Dont Deal With the Devil - Forest Follies Enemies/Bothersome Blueberry/Melt/blob_melt_0010.png" id="10_xsn40"]
+[ext_resource type="Texture2D" uid="uid://ce3df6s570f51" path="res://assets/PC Computer - Cuphead Dont Deal With the Devil - Forest Follies Enemies/Bothersome Blueberry/Melt/blob_melt_0011.png" id="11_c8np8"]
+[ext_resource type="Texture2D" uid="uid://dy4dk0f2k1jyn" path="res://assets/PC Computer - Cuphead Dont Deal With the Devil - Forest Follies Enemies/Bothersome Blueberry/Melt/blob_melt_0012.png" id="12_uh8aw"]
+[ext_resource type="Texture2D" uid="uid://cqpbiukpvu351" path="res://assets/PC Computer - Cuphead Dont Deal With the Devil - Forest Follies Enemies/Bothersome Blueberry/Melt/blob_melt_0013.png" id="13_etony"]
+[ext_resource type="Texture2D" uid="uid://8sfpmgw7lbw" path="res://assets/PC Computer - Cuphead Dont Deal With the Devil - Forest Follies Enemies/Bothersome Blueberry/Run/blob_run_0001.png" id="14_d4cjn"]
+[ext_resource type="Texture2D" uid="uid://dj6ilfteuu5g4" path="res://assets/PC Computer - Cuphead Dont Deal With the Devil - Forest Follies Enemies/Bothersome Blueberry/Run/blob_run_0002.png" id="15_t8rhj"]
+[ext_resource type="Texture2D" uid="uid://b51ajk4t3bp3k" path="res://assets/PC Computer - Cuphead Dont Deal With the Devil - Forest Follies Enemies/Bothersome Blueberry/Run/blob_run_0003.png" id="16_qko5q"]
+[ext_resource type="Texture2D" uid="uid://byt0cmgq20lrv" path="res://assets/PC Computer - Cuphead Dont Deal With the Devil - Forest Follies Enemies/Bothersome Blueberry/Run/blob_run_0004.png" id="17_lji6b"]
+[ext_resource type="Texture2D" uid="uid://d7lu6cg2v235" path="res://assets/PC Computer - Cuphead Dont Deal With the Devil - Forest Follies Enemies/Bothersome Blueberry/Run/blob_run_0005.png" id="18_t3oyt"]
+[ext_resource type="Texture2D" uid="uid://dcuwkfcjnlud0" path="res://assets/PC Computer - Cuphead Dont Deal With the Devil - Forest Follies Enemies/Bothersome Blueberry/Run/blob_run_0006.png" id="19_ji5fx"]
+[ext_resource type="Texture2D" uid="uid://k38xgbrolcdh" path="res://assets/PC Computer - Cuphead Dont Deal With the Devil - Forest Follies Enemies/Bothersome Blueberry/Run/blob_run_0007.png" id="20_87qxf"]
+[ext_resource type="Texture2D" uid="uid://cshfao6pbb7qb" path="res://assets/PC Computer - Cuphead Dont Deal With the Devil - Forest Follies Enemies/Bothersome Blueberry/Run/blob_run_0008.png" id="21_3xcli"]
+[ext_resource type="Texture2D" uid="uid://dyn1nyyvqm6qw" path="res://assets/PC Computer - Cuphead Dont Deal With the Devil - Forest Follies Enemies/Bothersome Blueberry/Run/blob_run_0009.png" id="22_i3gyy"]
+[ext_resource type="Texture2D" uid="uid://dl7amyeurlyl0" path="res://assets/PC Computer - Cuphead Dont Deal With the Devil - Forest Follies Enemies/Bothersome Blueberry/Run/blob_run_0010.png" id="23_iphj1"]
+[ext_resource type="Texture2D" uid="uid://d2kmgfnitiu7s" path="res://assets/PC Computer - Cuphead Dont Deal With the Devil - Forest Follies Enemies/Bothersome Blueberry/Run/blob_run_0011.png" id="24_5nxao"]
+[ext_resource type="Texture2D" uid="uid://dht0vdq0e83hb" path="res://assets/PC Computer - Cuphead Dont Deal With the Devil - Forest Follies Enemies/Bothersome Blueberry/Run/blob_run_0012.png" id="25_fra58"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_nguri"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_ddfj6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_ia7gk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_wl5ws")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_jbm14")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_ukd7v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_denxx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_n124k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_eak2y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_werns")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_xsn40")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_c8np8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_uh8aw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_etony")
+}],
+"loop": false,
+"name": &"dead",
+"speed": 15.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("13_etony")
+}],
+"loop": true,
+"name": &"dead_4ever",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("14_d4cjn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_t8rhj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_qko5q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_lji6b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_t3oyt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_ji5fx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_87qxf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_3xcli")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_i3gyy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_iphj1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_5nxao")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_fra58")
+}],
+"loop": true,
+"name": &"run",
+"speed": 15.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_xe7ge"]
+size = Vector2(20, 14)
+
+[node name="Blueberry" type="Area2D"]
+script = ExtResource("1_h7awf")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(0.110439, 1.49012e-08)
+scale = Vector2(0.198301, 0.176829)
+sprite_frames = SubResource("SpriteFrames_nguri")
+animation = &"run"
+autoplay = "run"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_xe7ge")

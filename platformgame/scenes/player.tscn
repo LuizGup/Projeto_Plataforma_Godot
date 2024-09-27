@@ -401,7 +401,7 @@ script = ExtResource("1_fy8fs")
 scale = Vector2(0.2, 0.162)
 sprite_frames = SubResource("SpriteFrames_75yin")
 animation = &"small_run"
-frame_progress = 0.893587
+frame_progress = 0.30207
 script = ExtResource("11_y7ode")
 
 [node name="Area2D" type="Area2D" parent="."]

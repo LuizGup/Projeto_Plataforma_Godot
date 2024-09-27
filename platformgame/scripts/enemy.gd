@@ -7,4 +7,4 @@ class_name Enemy
 
 
 func _process(delta):
-	position.x -= delta
+	position.x -= delta * horizontal_speed
