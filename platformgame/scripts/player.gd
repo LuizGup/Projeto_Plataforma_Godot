@@ -49,3 +49,8 @@ func _physics_process(delta):
 	animated_sprite_2d.trigger_animation(velocity, direction, player_mode)
 	
 	move_and_slide()
+
+
+func _on_area_2d_area_entered(area: Area2D) -> void:
+	if area is Enemy:
+		print("enemy")

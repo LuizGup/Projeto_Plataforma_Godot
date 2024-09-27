@@ -61,7 +61,7 @@ offset_bottom = 126.0
 [node name="Node" type="Node" parent="."]
 
 [node name="Blueberry" parent="Node" instance=ExtResource("7_tqwyj")]
-position = Vector2(7, 52)
+position = Vector2(-103, -18)
 
 [node name="Hotdog" parent="Node" instance=ExtResource("6_ot3na")]
-position = Vector2(-48, 45)
+position = Vector2(-3, 1)

@@ -21,9 +21,9 @@ func trigger_animation(velocity: Vector2, direction: int, player_mode: player.pl
 		print("a direction é: ", direction)
 		
 	else:
-		print("a direcao é: ", direcao)
-		print("a velocity é: ", velocity.x)
-		print("a scale é: ", scale.x)
+		#print("a direcao é: ", direcao)
+		#print("a velocity é: ", velocity.x)
+		#print("a scale é: ", scale.x)
 
 		if scale.x >= (0.2) && sign(velocity.x) < 0:
 			scale.x = -0.2

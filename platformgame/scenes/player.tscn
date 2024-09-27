@@ -394,14 +394,14 @@ animations = [{
 }]
 
 [node name="player" type="CharacterBody2D"]
-collision_mask = 2
+collision_mask = 6
 script = ExtResource("1_fy8fs")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 scale = Vector2(0.2, 0.162)
 sprite_frames = SubResource("SpriteFrames_75yin")
-animation = &"small_run"
-frame_progress = 0.30207
+animation = &"small_slide"
+frame_progress = 0.422587
 script = ExtResource("11_y7ode")
 
 [node name="Area2D" type="Area2D" parent="."]
@@ -411,3 +411,5 @@ shape = ExtResource("3_1t3bg")
 
 [node name="BodyCollisionShape" type="CollisionShape2D" parent="."]
 shape = ExtResource("3_1t3bg")
+
+[connection signal="area_entered" from="Area2D" to="." method="_on_area_2d_area_entered"]
