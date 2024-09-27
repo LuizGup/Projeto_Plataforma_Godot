@@ -22,6 +22,12 @@ enum playerMode {
 @export var jump_velocity = -350
 @export_group("")
 
+@export_group("Stomping enemies")
+@export var min_stomp_degree = 35
+@export var max_stomp_degree = 145
+@export var stomp_y_velocity = -150
+@export_group("")
+
 var player_mode = playerMode.small
 
 
@@ -53,4 +59,22 @@ func _physics_process(delta):
 
 func _on_area_2d_area_entered(area: Area2D) -> void:
 	if area is Enemy:
-		print("enemy")
+		handle_enemy_collision(area)
+		
+func handle_enemy_collision(enemy: Enemy):
+	if enemy == null:
+		return
+	
+	var angle_of_collision = rad_to_deg(position.angle_to_point(enemy.position))
+	
+	if angle_of_collision > min_stomp_degree && max_stomp_degree > angle_of_collision:
+		enemy.die()
+		on_enemy_stomped()
+	else:
+		die()
+
+func on_enemy_stomped():
+	velocity.y = stomp_y_velocity
+		
+func die():
+	print("DIE")

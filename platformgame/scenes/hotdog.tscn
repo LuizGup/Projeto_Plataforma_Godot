@@ -104,9 +104,12 @@ animations = [{
 }, {
 "duration": 1.0,
 "texture": ExtResource("19_ivcu0")
+}, {
+"duration": 1.0,
+"texture": null
 }],
 "loop": false,
-"name": &"dead",
+"name": &"die",
 "speed": 15.0
 }, {
 "frames": [{
@@ -197,10 +200,8 @@ script = ExtResource("1_mb2ai")
 position = Vector2(-4.54747e-13, -5)
 scale = Vector2(0.052, 0.06)
 sprite_frames = SubResource("SpriteFrames_368gp")
-animation = &"walk"
+animation = &"die"
 autoplay = "walk"
-frame = 23
-frame_progress = 1.0
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(0, 2.5)

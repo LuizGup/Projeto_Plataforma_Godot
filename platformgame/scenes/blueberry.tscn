@@ -31,6 +31,14 @@
 animations = [{
 "frames": [{
 "duration": 1.0,
+"texture": ExtResource("13_etony")
+}],
+"loop": true,
+"name": &"dead_4ever",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
 "texture": ExtResource("1_ddfj6")
 }, {
 "duration": 1.0,
@@ -70,16 +78,8 @@ animations = [{
 "texture": ExtResource("13_etony")
 }],
 "loop": false,
-"name": &"dead",
+"name": &"die",
 "speed": 15.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": ExtResource("13_etony")
-}],
-"loop": true,
-"name": &"dead_4ever",
-"speed": 5.0
 }, {
 "frames": [{
 "duration": 1.0,
@@ -133,8 +133,10 @@ script = ExtResource("1_h7awf")
 position = Vector2(0.110439, 1.49012e-08)
 scale = Vector2(0.198301, 0.176829)
 sprite_frames = SubResource("SpriteFrames_nguri")
-animation = &"run"
+animation = &"die"
 autoplay = "run"
+frame = 12
+frame_progress = 1.0
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 shape = SubResource("RectangleShape2D_xe7ge")
