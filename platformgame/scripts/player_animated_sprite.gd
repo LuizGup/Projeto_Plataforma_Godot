@@ -18,7 +18,7 @@ func trigger_animation(velocity: Vector2, direction: int, player_mode: player.pl
 		play("%s_slide" % animation_prefix)
 		scale.x = direcao
 		
-		print("a direction é: ", direction)
+		#print("a direction é: ", direction)
 		
 	else:
 		#print("a direcao é: ", direcao)
