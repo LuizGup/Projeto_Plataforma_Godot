@@ -1,4 +1,4 @@
-[gd_scene load_steps=28 format=3 uid="uid://cxtu2ikb6xsr7"]
+[gd_scene load_steps=53 format=3 uid="uid://cxtu2ikb6xsr7"]
 
 [ext_resource type="Script" path="res://scripts/player.gd" id="1_fy8fs"]
 [ext_resource type="Texture2D" uid="uid://d3jwm15et3t22" path="res://assets/Sprites/Mario_Small_Idle.png" id="1_mgb1r"]
@@ -14,7 +14,6 @@
 [ext_resource type="Texture2D" uid="uid://cxxi757iq1gnv" path="res://assets/Sprites/Mario_Big_Run3.png" id="7_mj1bm"]
 [ext_resource type="Texture2D" uid="uid://k303fjvwyalc" path="res://assets/Sprites/Mario_Big_Slide.png" id="8_sk0hj"]
 [ext_resource type="Texture2D" uid="uid://bausni6inywyv" path="res://assets/Sprites/Mario_Small_Death.png" id="9_na30f"]
-[ext_resource type="Texture2D" uid="uid://bqfjqbv1vr2oq" path="res://assets/Sprites/Mario_Small_Jump.png" id="9_vktlj"]
 [ext_resource type="Texture2D" uid="uid://ugx1dv5u8m74" path="res://assets/Sprites/Mario-Shooting.png" id="10_ejf1f"]
 [ext_resource type="Texture2D" uid="uid://ckd7ka2h150dt" path="res://assets/Sprites/Mario_Small_Pole.png" id="10_omy4t"]
 [ext_resource type="Script" path="res://scripts/player_animated_sprite.gd" id="11_y7ode"]
@@ -22,10 +21,36 @@
 [ext_resource type="Texture2D" uid="uid://bsfrxav8x3dot" path="res://assets/Sprites/Mario_Shooting_Run1.png" id="15_o8bv6"]
 [ext_resource type="Texture2D" uid="uid://cipjmquw1tlrv" path="res://assets/Sprites/Mario_Shooting_Run2.png" id="16_q5sfe"]
 [ext_resource type="Texture2D" uid="uid://daqnle02fss6v" path="res://assets/Sprites/Mario_Shooting_Run3.png" id="17_ktduu"]
-[ext_resource type="Texture2D" uid="uid://b7pkrn5h1n5lm" path="res://assets/Sprites/Mario_Small_Run1.png" id="21_d5gev"]
-[ext_resource type="Texture2D" uid="uid://dlhg7nbxeials" path="res://assets/Sprites/Mario_Small_Run2.png" id="22_8h1m4"]
-[ext_resource type="Texture2D" uid="uid://d01eopk6c4cx1" path="res://assets/Sprites/Mario_Small_Run3.png" id="23_herha"]
-[ext_resource type="Texture2D" uid="uid://cal7r48xqmfrt" path="res://assets/Sprites/Mario_Small_Slide.png" id="24_srxqn"]
+[ext_resource type="Texture2D" uid="uid://dvi162dlko0e" path="res://assets/PC Computer - Cuphead Dont Deal With the Devil - Cuphead/Idle/cuphead_idle_0001.png" id="18_mn3jq"]
+[ext_resource type="Texture2D" uid="uid://dsomt4s0emwo5" path="res://assets/PC Computer - Cuphead Dont Deal With the Devil - Cuphead/Idle/cuphead_idle_0002.png" id="19_4yxph"]
+[ext_resource type="Texture2D" uid="uid://c4wwifubkdpbg" path="res://assets/PC Computer - Cuphead Dont Deal With the Devil - Cuphead/Idle/cuphead_idle_0003.png" id="20_pl332"]
+[ext_resource type="Texture2D" uid="uid://33nrqusuipix" path="res://assets/PC Computer - Cuphead Dont Deal With the Devil - Cuphead/Idle/cuphead_idle_0004.png" id="21_hl4gl"]
+[ext_resource type="Texture2D" uid="uid://w0708dupa2ov" path="res://assets/PC Computer - Cuphead Dont Deal With the Devil - Cuphead/Idle/cuphead_idle_0005.png" id="22_m8jw8"]
+[ext_resource type="Texture2D" uid="uid://dhk1th2k2k3lu" path="res://assets/PC Computer - Cuphead Dont Deal With the Devil - Cuphead/Jump/Cuphead/cuphead_jump_0001.png" id="23_dnouj"]
+[ext_resource type="Texture2D" uid="uid://86ve0tytb1b4" path="res://assets/PC Computer - Cuphead Dont Deal With the Devil - Cuphead/Jump/Cuphead/cuphead_jump_0002.png" id="24_7mcxh"]
+[ext_resource type="Texture2D" uid="uid://cqt582o15mjc2" path="res://assets/PC Computer - Cuphead Dont Deal With the Devil - Cuphead/Jump/Cuphead/cuphead_jump_0003.png" id="25_3sxa4"]
+[ext_resource type="Texture2D" uid="uid://2iix6g2q5yhu" path="res://assets/PC Computer - Cuphead Dont Deal With the Devil - Cuphead/Run/Normal/cuphead_run_0001.png" id="25_8q4xn"]
+[ext_resource type="Texture2D" uid="uid://bgw2ylgwx1k33" path="res://assets/PC Computer - Cuphead Dont Deal With the Devil - Cuphead/Jump/Cuphead/cuphead_jump_0004.png" id="26_afilo"]
+[ext_resource type="Texture2D" uid="uid://eldcr5gdn3vd" path="res://assets/PC Computer - Cuphead Dont Deal With the Devil - Cuphead/Run/Normal/cuphead_run_0002.png" id="26_ngf05"]
+[ext_resource type="Texture2D" uid="uid://b0do5iv240io0" path="res://assets/PC Computer - Cuphead Dont Deal With the Devil - Cuphead/Run/Normal/cuphead_run_0003.png" id="27_515x6"]
+[ext_resource type="Texture2D" uid="uid://blqleono1br52" path="res://assets/PC Computer - Cuphead Dont Deal With the Devil - Cuphead/Jump/Cuphead/cuphead_jump_0005.png" id="27_fm1ni"]
+[ext_resource type="Texture2D" uid="uid://d36hj14d05dq8" path="res://assets/PC Computer - Cuphead Dont Deal With the Devil - Cuphead/Run/Normal/cuphead_run_0004.png" id="28_e4b51"]
+[ext_resource type="Texture2D" uid="uid://bedsvqd5kp0pv" path="res://assets/PC Computer - Cuphead Dont Deal With the Devil - Cuphead/Jump/Cuphead/cuphead_jump_0006.png" id="28_nw2pe"]
+[ext_resource type="Texture2D" uid="uid://mjisxdsxdx08" path="res://assets/PC Computer - Cuphead Dont Deal With the Devil - Cuphead/Jump/Cuphead/cuphead_jump_0007.png" id="29_lmoxk"]
+[ext_resource type="Texture2D" uid="uid://y8gpd8nekawg" path="res://assets/PC Computer - Cuphead Dont Deal With the Devil - Cuphead/Run/Normal/cuphead_run_0005.png" id="29_ru0ne"]
+[ext_resource type="Texture2D" uid="uid://fv6vmhnc7lyh" path="res://assets/PC Computer - Cuphead Dont Deal With the Devil - Cuphead/Jump/Cuphead/cuphead_jump_0008.png" id="30_6fws2"]
+[ext_resource type="Texture2D" uid="uid://c1ybitxxmj6wr" path="res://assets/PC Computer - Cuphead Dont Deal With the Devil - Cuphead/Run/Normal/cuphead_run_0006.png" id="30_yws1b"]
+[ext_resource type="Texture2D" uid="uid://l0rtsh8c7mng" path="res://assets/PC Computer - Cuphead Dont Deal With the Devil - Cuphead/Run/Normal/cuphead_run_0007.png" id="31_7uccq"]
+[ext_resource type="Texture2D" uid="uid://btdlu5w8gwpyc" path="res://assets/PC Computer - Cuphead Dont Deal With the Devil - Cuphead/Run/Normal/cuphead_run_0008.png" id="32_47f18"]
+[ext_resource type="Texture2D" uid="uid://c0d46xtjrx3xv" path="res://assets/PC Computer - Cuphead Dont Deal With the Devil - Cuphead/Run/Normal/cuphead_run_0009.png" id="33_weee6"]
+[ext_resource type="Texture2D" uid="uid://bei4igmkihl3j" path="res://assets/PC Computer - Cuphead Dont Deal With the Devil - Cuphead/Run/Normal/cuphead_run_0010.png" id="34_djvuy"]
+[ext_resource type="Texture2D" uid="uid://to38icl30kvi" path="res://assets/PC Computer - Cuphead Dont Deal With the Devil - Cuphead/Run/Normal/cuphead_run_0011.png" id="35_83nbw"]
+[ext_resource type="Texture2D" uid="uid://bifv5j7jtbhk5" path="res://assets/PC Computer - Cuphead Dont Deal With the Devil - Cuphead/Run/Normal/cuphead_run_0012.png" id="36_ta3dg"]
+[ext_resource type="Texture2D" uid="uid://btfhlen4gy7w3" path="res://assets/PC Computer - Cuphead Dont Deal With the Devil - Cuphead/Run/Normal/cuphead_run_0013.png" id="37_awf8v"]
+[ext_resource type="Texture2D" uid="uid://dmjnlouifnml4" path="res://assets/PC Computer - Cuphead Dont Deal With the Devil - Cuphead/Run/Normal/cuphead_run_0014.png" id="38_gtn8h"]
+[ext_resource type="Texture2D" uid="uid://btg48hkhsnx7o" path="res://assets/PC Computer - Cuphead Dont Deal With the Devil - Cuphead/Run/Normal/cuphead_run_0015.png" id="39_u2fck"]
+[ext_resource type="Texture2D" uid="uid://bkh72xa1qvogm" path="res://assets/PC Computer - Cuphead Dont Deal With the Devil - Cuphead/Run/Normal/cuphead_run_0016.png" id="40_6sk44"]
+[ext_resource type="Texture2D" uid="uid://573ohy0nkwde" path="res://assets/PC Computer - Cuphead Dont Deal With the Devil - Cuphead/Dash/Ground/0.png" id="43_efoxn"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_75yin"]
 animations = [{
@@ -178,19 +203,67 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
-"texture": ExtResource("1_mgb1r")
+"texture": ExtResource("18_mn3jq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_4yxph")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_pl332")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_hl4gl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_m8jw8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_m8jw8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_hl4gl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_pl332")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_4yxph")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_mn3jq")
 }],
 "loop": true,
 "name": &"small_idle",
-"speed": 5.0
+"speed": 12.0
 }, {
 "frames": [{
 "duration": 1.0,
-"texture": ExtResource("9_vktlj")
+"texture": ExtResource("23_dnouj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_7mcxh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_3sxa4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_afilo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_fm1ni")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_nw2pe")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_lmoxk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_6fws2")
 }],
 "loop": true,
 "name": &"small_jump",
-"speed": 5.0
+"speed": 12.0
 }, {
 "frames": [{
 "duration": 1.0,
@@ -202,25 +275,64 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
-"texture": ExtResource("21_d5gev")
+"texture": ExtResource("25_8q4xn")
 }, {
 "duration": 1.0,
-"texture": ExtResource("22_8h1m4")
+"texture": ExtResource("26_ngf05")
 }, {
 "duration": 1.0,
-"texture": ExtResource("23_herha")
+"texture": ExtResource("27_515x6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_e4b51")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_ru0ne")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_yws1b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_7uccq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_47f18")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_weee6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_djvuy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_83nbw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_ta3dg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37_awf8v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38_gtn8h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39_u2fck")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40_6sk44")
 }],
 "loop": true,
 "name": &"small_run",
-"speed": 10.0
+"speed": 12.0
 }, {
 "frames": [{
 "duration": 1.0,
-"texture": ExtResource("24_srxqn")
+"texture": ExtResource("43_efoxn")
 }],
 "loop": true,
 "name": &"small_slide",
-"speed": 5.0
+"speed": 1.0
 }, {
 "frames": [{
 "duration": 1.0,
@@ -286,8 +398,10 @@ collision_mask = 2
 script = ExtResource("1_fy8fs")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+scale = Vector2(0.2, 0.162)
 sprite_frames = SubResource("SpriteFrames_75yin")
-animation = &"small_to_big"
+animation = &"small_run"
+frame_progress = 0.893587
 script = ExtResource("11_y7ode")
 
 [node name="Area2D" type="Area2D" parent="."]

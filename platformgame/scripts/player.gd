@@ -5,9 +5,9 @@ class_name player
 var gravity = ProjectSettings.get_setting("physics/2d/default_gravity")
 
 enum playerMode {
-	SMALL,
-	BIG,
-	SHOOTING
+	small,
+	big,
+	shooting
 }
 
 
@@ -22,7 +22,7 @@ enum playerMode {
 @export var jump_velocity = -350
 @export_group("")
 
-var player_mode = playerMode.SMALL
+var player_mode = playerMode.small
 
 
 func _physics_process(delta):
