@@ -405,6 +405,7 @@ frame_progress = 0.34758
 script = ExtResource("11_y7ode")
 
 [node name="Area2D" type="Area2D" parent="."]
+collision_mask = 4
 
 [node name="AreaCollisionShape" type="CollisionShape2D" parent="Area2D"]
 shape = ExtResource("3_1t3bg")

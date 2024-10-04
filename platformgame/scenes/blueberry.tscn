@@ -26,6 +26,7 @@
 [ext_resource type="Texture2D" uid="uid://dl7amyeurlyl0" path="res://assets/PC Computer - Cuphead Dont Deal With the Devil - Forest Follies Enemies/Bothersome Blueberry/Run/blob_run_0010.png" id="23_iphj1"]
 [ext_resource type="Texture2D" uid="uid://d2kmgfnitiu7s" path="res://assets/PC Computer - Cuphead Dont Deal With the Devil - Forest Follies Enemies/Bothersome Blueberry/Run/blob_run_0011.png" id="24_5nxao"]
 [ext_resource type="Texture2D" uid="uid://dht0vdq0e83hb" path="res://assets/PC Computer - Cuphead Dont Deal With the Devil - Forest Follies Enemies/Bothersome Blueberry/Run/blob_run_0012.png" id="25_fra58"]
+[ext_resource type="Shape2D" uid="uid://baw87g0rdiiso" path="res://resources/collision_shapes/blueberry_full_collision_shape.tres" id="27_wuh0c"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_nguri"]
 animations = [{
@@ -123,23 +124,20 @@ animations = [{
 "speed": 15.0
 }]
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_xe7ge"]
-size = Vector2(20, 14)
-
 [node name="Blueberry" type="Area2D"]
+collision_layer = 4
 script = ExtResource("1_h7awf")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 position = Vector2(0.110439, 1.49012e-08)
 scale = Vector2(0.198301, 0.176829)
 sprite_frames = SubResource("SpriteFrames_nguri")
-animation = &"die"
+animation = &"run"
 autoplay = "run"
-frame = 12
-frame_progress = 1.0
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-shape = SubResource("RectangleShape2D_xe7ge")
+position = Vector2(0, -0.5)
+shape = ExtResource("27_wuh0c")
 
 [node name="RayCast2D" type="RayCast2D" parent="."]
 target_position = Vector2(0, 8)
