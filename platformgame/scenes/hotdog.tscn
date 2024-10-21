@@ -1,109 +1,206 @@
-[gd_scene load_steps=47 format=3 uid="uid://14opns5k1gev"]
+[gd_scene load_steps=47 format=3 uid="uid://dpdtjxdm5s1pi"]
 
-[ext_resource type="Texture2D" uid="uid://cytrkfqc2bs32" path="res://assets/PC Computer - Cuphead Dont Deal With the Devil - Funfair Fever Enemies/Funfair Fever Enemies/Hot Dog/lv2-1_hotdog_death_0001.png" id="1_7yntp"]
-[ext_resource type="Script" path="res://scenes/hootdog.gd" id="1_mb2ai"]
-[ext_resource type="Texture2D" uid="uid://bxxnj4ykchu7g" path="res://assets/PC Computer - Cuphead Dont Deal With the Devil - Funfair Fever Enemies/Funfair Fever Enemies/Hot Dog/lv2-1_hotdog_death_0002.png" id="2_khaea"]
-[ext_resource type="Texture2D" uid="uid://cbqy236rduv45" path="res://assets/PC Computer - Cuphead Dont Deal With the Devil - Funfair Fever Enemies/Funfair Fever Enemies/Hot Dog/lv2-1_hotdog_death_0003.png" id="3_n5cpa"]
-[ext_resource type="Texture2D" uid="uid://bsgw15uf7kjr1" path="res://assets/PC Computer - Cuphead Dont Deal With the Devil - Funfair Fever Enemies/Funfair Fever Enemies/Hot Dog/lv2-1_hotdog_death_0004.png" id="4_sibkr"]
-[ext_resource type="Texture2D" uid="uid://wfseeut7eg81" path="res://assets/PC Computer - Cuphead Dont Deal With the Devil - Funfair Fever Enemies/Funfair Fever Enemies/Hot Dog/lv2-1_hotdog_death_0005.png" id="5_d8nc4"]
-[ext_resource type="Texture2D" uid="uid://c0x58jylrpl30" path="res://assets/PC Computer - Cuphead Dont Deal With the Devil - Funfair Fever Enemies/Funfair Fever Enemies/Hot Dog/lv2-1_hotdog_death_0006.png" id="6_w6tg2"]
-[ext_resource type="Texture2D" uid="uid://578i5bj3gbff" path="res://assets/PC Computer - Cuphead Dont Deal With the Devil - Funfair Fever Enemies/Funfair Fever Enemies/Hot Dog/lv2-1_hotdog_death_0007.png" id="7_onis7"]
-[ext_resource type="Texture2D" uid="uid://dqbdkukkok1l4" path="res://assets/PC Computer - Cuphead Dont Deal With the Devil - Funfair Fever Enemies/Funfair Fever Enemies/Hot Dog/lv2-1_hotdog_death_0008.png" id="8_818tx"]
-[ext_resource type="Texture2D" uid="uid://bdyobmgwid7qd" path="res://assets/PC Computer - Cuphead Dont Deal With the Devil - Funfair Fever Enemies/Funfair Fever Enemies/Hot Dog/lv2-1_hotdog_death_explode_0001.png" id="9_g75xb"]
-[ext_resource type="Texture2D" uid="uid://b0w7ejanttvu5" path="res://assets/PC Computer - Cuphead Dont Deal With the Devil - Funfair Fever Enemies/Funfair Fever Enemies/Hot Dog/lv2-1_hotdog_death_explode_0002.png" id="10_av4l4"]
-[ext_resource type="Texture2D" uid="uid://b2j7pvp24bra8" path="res://assets/PC Computer - Cuphead Dont Deal With the Devil - Funfair Fever Enemies/Funfair Fever Enemies/Hot Dog/lv2-1_hotdog_death_explode_0003.png" id="11_2ygg5"]
-[ext_resource type="Texture2D" uid="uid://bp4eplda5q0ix" path="res://assets/PC Computer - Cuphead Dont Deal With the Devil - Funfair Fever Enemies/Funfair Fever Enemies/Hot Dog/lv2-1_hotdog_death_explode_0004.png" id="12_g4f7d"]
-[ext_resource type="Texture2D" uid="uid://u2nvroycho0p" path="res://assets/PC Computer - Cuphead Dont Deal With the Devil - Funfair Fever Enemies/Funfair Fever Enemies/Hot Dog/lv2-1_hotdog_death_explode_0005.png" id="13_jfsc6"]
-[ext_resource type="Texture2D" uid="uid://060h6brrog5q" path="res://assets/PC Computer - Cuphead Dont Deal With the Devil - Funfair Fever Enemies/Funfair Fever Enemies/Hot Dog/lv2-1_hotdog_death_explode_0006.png" id="14_b7c27"]
-[ext_resource type="Texture2D" uid="uid://do4h4xyw0p113" path="res://assets/PC Computer - Cuphead Dont Deal With the Devil - Funfair Fever Enemies/Funfair Fever Enemies/Hot Dog/lv2-1_hotdog_death_explode_0007.png" id="15_nog20"]
-[ext_resource type="Texture2D" uid="uid://dsccqqlfoycqk" path="res://assets/PC Computer - Cuphead Dont Deal With the Devil - Funfair Fever Enemies/Funfair Fever Enemies/Hot Dog/lv2-1_hotdog_death_explode_0008.png" id="16_piwxb"]
-[ext_resource type="Texture2D" uid="uid://d2eo1c4p3cgjo" path="res://assets/PC Computer - Cuphead Dont Deal With the Devil - Funfair Fever Enemies/Funfair Fever Enemies/Hot Dog/lv2-1_hotdog_death_explode_0009.png" id="17_20tj2"]
-[ext_resource type="Texture2D" uid="uid://b12xd3gpwi5as" path="res://assets/PC Computer - Cuphead Dont Deal With the Devil - Funfair Fever Enemies/Funfair Fever Enemies/Hot Dog/lv2-1_hotdog_death_explode_0010.png" id="18_h3puo"]
-[ext_resource type="Texture2D" uid="uid://u8ty2pvklwif" path="res://assets/PC Computer - Cuphead Dont Deal With the Devil - Funfair Fever Enemies/Funfair Fever Enemies/Hot Dog/lv2-1_hotdog_death_explode_0011.png" id="19_ivcu0"]
-[ext_resource type="Texture2D" uid="uid://camuqqr7wj0tv" path="res://assets/PC Computer - Cuphead Dont Deal With the Devil - Funfair Fever Enemies/Funfair Fever Enemies/Hot Dog/lv2-1_hotdog_dance_0001.png" id="20_ns7tg"]
-[ext_resource type="Texture2D" uid="uid://c7w6wu77epojq" path="res://assets/PC Computer - Cuphead Dont Deal With the Devil - Funfair Fever Enemies/Funfair Fever Enemies/Hot Dog/lv2-1_hotdog_dance_0002.png" id="21_hv4ym"]
-[ext_resource type="Texture2D" uid="uid://cbngbtiribb5k" path="res://assets/PC Computer - Cuphead Dont Deal With the Devil - Funfair Fever Enemies/Funfair Fever Enemies/Hot Dog/lv2-1_hotdog_dance_0003.png" id="22_k6we8"]
-[ext_resource type="Texture2D" uid="uid://d1rx1u0a5sy41" path="res://assets/PC Computer - Cuphead Dont Deal With the Devil - Funfair Fever Enemies/Funfair Fever Enemies/Hot Dog/lv2-1_hotdog_dance_0004.png" id="23_2e0n4"]
-[ext_resource type="Texture2D" uid="uid://d0ppnpj7b77ne" path="res://assets/PC Computer - Cuphead Dont Deal With the Devil - Funfair Fever Enemies/Funfair Fever Enemies/Hot Dog/lv2-1_hotdog_dance_0005.png" id="24_wgcyt"]
-[ext_resource type="Texture2D" uid="uid://rcbgpotwi2b3" path="res://assets/PC Computer - Cuphead Dont Deal With the Devil - Funfair Fever Enemies/Funfair Fever Enemies/Hot Dog/lv2-1_hotdog_dance_0006.png" id="25_8m458"]
-[ext_resource type="Texture2D" uid="uid://b1pq4k7cfv4nr" path="res://assets/PC Computer - Cuphead Dont Deal With the Devil - Funfair Fever Enemies/Funfair Fever Enemies/Hot Dog/lv2-1_hotdog_dance_0007.png" id="26_2hsc6"]
-[ext_resource type="Texture2D" uid="uid://12fdaetn0cbc" path="res://assets/PC Computer - Cuphead Dont Deal With the Devil - Funfair Fever Enemies/Funfair Fever Enemies/Hot Dog/lv2-1_hotdog_dance_0008.png" id="27_47a8l"]
-[ext_resource type="Texture2D" uid="uid://6daprpmegf51" path="res://assets/PC Computer - Cuphead Dont Deal With the Devil - Funfair Fever Enemies/Funfair Fever Enemies/Hot Dog/lv2-1_hotdog_dance_0009.png" id="28_41fbp"]
-[ext_resource type="Texture2D" uid="uid://b1facg51yomrp" path="res://assets/PC Computer - Cuphead Dont Deal With the Devil - Funfair Fever Enemies/Funfair Fever Enemies/Hot Dog/lv2-1_hotdog_dance_0010.png" id="29_c4e5d"]
-[ext_resource type="Texture2D" uid="uid://d1cik4ieye850" path="res://assets/PC Computer - Cuphead Dont Deal With the Devil - Funfair Fever Enemies/Funfair Fever Enemies/Hot Dog/lv2-1_hotdog_dance_0011.png" id="30_guy5b"]
-[ext_resource type="Texture2D" uid="uid://yh2wnisa3hi" path="res://assets/PC Computer - Cuphead Dont Deal With the Devil - Funfair Fever Enemies/Funfair Fever Enemies/Hot Dog/lv2-1_hotdog_dance_0012.png" id="31_de2nd"]
-[ext_resource type="Texture2D" uid="uid://b5kuvssy1fa4r" path="res://assets/PC Computer - Cuphead Dont Deal With the Devil - Funfair Fever Enemies/Funfair Fever Enemies/Hot Dog/lv2-1_hotdog_dance_0013.png" id="32_abwwv"]
-[ext_resource type="Texture2D" uid="uid://b3x50fxpj0q6g" path="res://assets/PC Computer - Cuphead Dont Deal With the Devil - Funfair Fever Enemies/Funfair Fever Enemies/Hot Dog/lv2-1_hotdog_dance_0014.png" id="33_yqwrg"]
-[ext_resource type="Texture2D" uid="uid://bf5x2mwg4vd5s" path="res://assets/PC Computer - Cuphead Dont Deal With the Devil - Funfair Fever Enemies/Funfair Fever Enemies/Hot Dog/lv2-1_hotdog_dance_0015.png" id="34_54bdh"]
-[ext_resource type="Texture2D" uid="uid://b1nt7b62hwofy" path="res://assets/PC Computer - Cuphead Dont Deal With the Devil - Funfair Fever Enemies/Funfair Fever Enemies/Hot Dog/lv2-1_hotdog_dance_0016.png" id="35_qk56m"]
-[ext_resource type="Texture2D" uid="uid://ci4f1re4sartq" path="res://assets/PC Computer - Cuphead Dont Deal With the Devil - Funfair Fever Enemies/Funfair Fever Enemies/Hot Dog/lv2-1_hotdog_dance_0017.png" id="36_5yyty"]
-[ext_resource type="Texture2D" uid="uid://cnyw5ijumai7k" path="res://assets/PC Computer - Cuphead Dont Deal With the Devil - Funfair Fever Enemies/Funfair Fever Enemies/Hot Dog/lv2-1_hotdog_dance_0018.png" id="37_476yn"]
-[ext_resource type="Texture2D" uid="uid://2vvfjxfq81pb" path="res://assets/PC Computer - Cuphead Dont Deal With the Devil - Funfair Fever Enemies/Funfair Fever Enemies/Hot Dog/lv2-1_hotdog_dance_0019.png" id="38_bmfb2"]
-[ext_resource type="Texture2D" uid="uid://b2kawtdsjslm8" path="res://assets/PC Computer - Cuphead Dont Deal With the Devil - Funfair Fever Enemies/Funfair Fever Enemies/Hot Dog/lv2-1_hotdog_dance_0020.png" id="39_qg871"]
-[ext_resource type="Texture2D" uid="uid://o0kif44hecth" path="res://assets/PC Computer - Cuphead Dont Deal With the Devil - Funfair Fever Enemies/Funfair Fever Enemies/Hot Dog/lv2-1_hotdog_dance_0021.png" id="40_7gk2b"]
-[ext_resource type="Texture2D" uid="uid://ejkgl1bubjji" path="res://assets/PC Computer - Cuphead Dont Deal With the Devil - Funfair Fever Enemies/Funfair Fever Enemies/Hot Dog/lv2-1_hotdog_dance_0022.png" id="41_lbtps"]
-[ext_resource type="Texture2D" uid="uid://2ydn3dvp2f7x" path="res://assets/PC Computer - Cuphead Dont Deal With the Devil - Funfair Fever Enemies/Funfair Fever Enemies/Hot Dog/lv2-1_hotdog_dance_0023.png" id="42_gma7r"]
-[ext_resource type="Texture2D" uid="uid://diri8005gaecv" path="res://assets/PC Computer - Cuphead Dont Deal With the Devil - Funfair Fever Enemies/Funfair Fever Enemies/Hot Dog/lv2-1_hotdog_dance_0024.png" id="43_u75h8"]
+[sub_resource type="GDScript" id="GDScript_x2i5b"]
+script/source = "extends Enemy
+
+class_name 
+
+
+func die():
+	super.die()
+	set_collision_layer_value(3, false)
+	set_collision_mask_value(1, false)
+	get_tree().create_timer(1.5).timeout.connect(queue_free)
+"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_w3cwc"]
+load_path = "res://.godot/imported/lv2-1_hotdog_death_0001.png-cd9de17c0f3cbb5bf11730422a33789b.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_hivr6"]
+load_path = "res://.godot/imported/lv2-1_hotdog_death_0002.png-dfa73f557a44006eaeef63202f991101.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_unt6r"]
+load_path = "res://.godot/imported/lv2-1_hotdog_death_0003.png-9cf302f624573887db043679bf77f059.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_px3yx"]
+load_path = "res://.godot/imported/lv2-1_hotdog_death_0004.png-cf482447ea71b559a0bba1b0c8b5fa2c.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_ntul7"]
+load_path = "res://.godot/imported/lv2-1_hotdog_death_0005.png-a2e9330c0932746d6a501ff99226f9f9.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_cuwlj"]
+load_path = "res://.godot/imported/lv2-1_hotdog_death_0006.png-2a294e6bb55a715b56a14d782bcacc51.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_auknq"]
+load_path = "res://.godot/imported/lv2-1_hotdog_death_0007.png-e0db31a0404de2222b901cd07eac0c92.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_nofbu"]
+load_path = "res://.godot/imported/lv2-1_hotdog_death_0008.png-ebc5cb02938d10315505e3137efcaca1.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_lnuro"]
+load_path = "res://.godot/imported/lv2-1_hotdog_death_explode_0001.png-1037c4705728f95d27d04422ddbe9d2d.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_eg4of"]
+load_path = "res://.godot/imported/lv2-1_hotdog_death_explode_0002.png-701a618e42630cd746ba1a3607467ef1.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_573ka"]
+load_path = "res://.godot/imported/lv2-1_hotdog_death_explode_0003.png-cd898884bd463e47c9ef26e8da38a2e5.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_oq6u3"]
+load_path = "res://.godot/imported/lv2-1_hotdog_death_explode_0004.png-d04dbaa491ec8221d7a0a6384f53ffa3.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_nald6"]
+load_path = "res://.godot/imported/lv2-1_hotdog_death_explode_0005.png-6a2dce65b27287dc4cdaee12a4cbab7b.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_0kbtr"]
+load_path = "res://.godot/imported/lv2-1_hotdog_death_explode_0006.png-2cad4b8eb65b16bcb3e1c7439c1a225d.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_8qtvo"]
+load_path = "res://.godot/imported/lv2-1_hotdog_death_explode_0007.png-cec3ca0c15dcc77ccab0349659d578b3.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_4b7uh"]
+load_path = "res://.godot/imported/lv2-1_hotdog_death_explode_0008.png-1b84f24e92a1b2882b27370328b41c93.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_hffwr"]
+load_path = "res://.godot/imported/lv2-1_hotdog_death_explode_0009.png-d218fb1d4643d2d7328e9173770fd27b.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_isiwv"]
+load_path = "res://.godot/imported/lv2-1_hotdog_death_explode_0010.png-8f873e47f4a8116378b666d17486f29a.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_wddso"]
+load_path = "res://.godot/imported/lv2-1_hotdog_death_explode_0011.png-fa40631aa69de8efbb802f414deaa456.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_n5ifn"]
+load_path = "res://.godot/imported/lv2-1_hotdog_dance_0001.png-eb426036f3e99650733079fcc358fead.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_vojsl"]
+load_path = "res://.godot/imported/lv2-1_hotdog_dance_0002.png-cddacc72fec4f39c410936aeb623c080.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_rsqia"]
+load_path = "res://.godot/imported/lv2-1_hotdog_dance_0003.png-4487f777e8ff6e9916d0184a4e0b49f3.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_lk1mr"]
+load_path = "res://.godot/imported/lv2-1_hotdog_dance_0004.png-ccafd01446504c3173da98fe7a30da48.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_t5ppf"]
+load_path = "res://.godot/imported/lv2-1_hotdog_dance_0005.png-640fe08607d04ed3040525181f89163c.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_dn2eb"]
+load_path = "res://.godot/imported/lv2-1_hotdog_dance_0006.png-aeca27c187535b91a59ca03be7cc758c.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_fncnm"]
+load_path = "res://.godot/imported/lv2-1_hotdog_dance_0007.png-e011dad750f483d74379fddfb55dbd03.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_8jdnd"]
+load_path = "res://.godot/imported/lv2-1_hotdog_dance_0008.png-1485cb01b08fc9965565724bd5b17c7d.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_1k1x1"]
+load_path = "res://.godot/imported/lv2-1_hotdog_dance_0009.png-bad7b2a74d574e7053b4cc6e5dc30bae.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_oa3f4"]
+load_path = "res://.godot/imported/lv2-1_hotdog_dance_0010.png-55f180ad4ec1d94155243a629d5edd82.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_jdj1v"]
+load_path = "res://.godot/imported/lv2-1_hotdog_dance_0011.png-924af9b8bff2ce50764b8a6f79bed5f5.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_0x8pa"]
+load_path = "res://.godot/imported/lv2-1_hotdog_dance_0012.png-e00badde41de3dcc0fac10e0e6c14341.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_f1mwg"]
+load_path = "res://.godot/imported/lv2-1_hotdog_dance_0013.png-0eade1e2283894a4b9396020c431bb94.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_17sds"]
+load_path = "res://.godot/imported/lv2-1_hotdog_dance_0014.png-5da87b2069c3aeb099af0b95712c3645.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_p4e3u"]
+load_path = "res://.godot/imported/lv2-1_hotdog_dance_0015.png-2ab190310741ba296590371cc11c3a12.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_ho5le"]
+load_path = "res://.godot/imported/lv2-1_hotdog_dance_0016.png-73376beda2e80e891ef069d2b1fc5616.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_pbslx"]
+load_path = "res://.godot/imported/lv2-1_hotdog_dance_0017.png-9de90fea058715708146ede9ee3f1c93.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_6na3a"]
+load_path = "res://.godot/imported/lv2-1_hotdog_dance_0018.png-813ba925531ade305a516d1cfa8d58f4.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_cflyr"]
+load_path = "res://.godot/imported/lv2-1_hotdog_dance_0019.png-4e0ce91444880d575f717b7c76be1a92.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_nk5pe"]
+load_path = "res://.godot/imported/lv2-1_hotdog_dance_0020.png-5f9bfcd23bd4a7386cebe147b715688a.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_gl8y3"]
+load_path = "res://.godot/imported/lv2-1_hotdog_dance_0021.png-7c27f1d7431ab9db959f1d75c6c7698d.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_v68ao"]
+load_path = "res://.godot/imported/lv2-1_hotdog_dance_0022.png-dba962907d7578e6525581350edcf480.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_lsneg"]
+load_path = "res://.godot/imported/lv2-1_hotdog_dance_0023.png-71ccd4b4ed7f358a5ac3d90dd60bdfb6.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_5bpxw"]
+load_path = "res://.godot/imported/lv2-1_hotdog_dance_0024.png-5eaaaedda2e0241e7cac17540d2ea2fc.ctex"
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_368gp"]
 animations = [{
 "frames": [{
 "duration": 1.0,
-"texture": ExtResource("1_7yntp")
+"texture": SubResource("CompressedTexture2D_w3cwc")
 }, {
 "duration": 1.0,
-"texture": ExtResource("2_khaea")
+"texture": SubResource("CompressedTexture2D_hivr6")
 }, {
 "duration": 1.0,
-"texture": ExtResource("3_n5cpa")
+"texture": SubResource("CompressedTexture2D_unt6r")
 }, {
 "duration": 1.0,
-"texture": ExtResource("4_sibkr")
+"texture": SubResource("CompressedTexture2D_px3yx")
 }, {
 "duration": 1.0,
-"texture": ExtResource("5_d8nc4")
+"texture": SubResource("CompressedTexture2D_ntul7")
 }, {
 "duration": 1.0,
-"texture": ExtResource("6_w6tg2")
+"texture": SubResource("CompressedTexture2D_cuwlj")
 }, {
 "duration": 1.0,
-"texture": ExtResource("7_onis7")
+"texture": SubResource("CompressedTexture2D_auknq")
 }, {
 "duration": 1.0,
-"texture": ExtResource("8_818tx")
+"texture": SubResource("CompressedTexture2D_nofbu")
 }, {
 "duration": 1.0,
-"texture": ExtResource("9_g75xb")
+"texture": SubResource("CompressedTexture2D_lnuro")
 }, {
 "duration": 1.0,
-"texture": ExtResource("10_av4l4")
+"texture": SubResource("CompressedTexture2D_eg4of")
 }, {
 "duration": 1.0,
-"texture": ExtResource("11_2ygg5")
+"texture": SubResource("CompressedTexture2D_573ka")
 }, {
 "duration": 1.0,
-"texture": ExtResource("12_g4f7d")
+"texture": SubResource("CompressedTexture2D_oq6u3")
 }, {
 "duration": 1.0,
-"texture": ExtResource("13_jfsc6")
+"texture": SubResource("CompressedTexture2D_nald6")
 }, {
 "duration": 1.0,
-"texture": ExtResource("14_b7c27")
+"texture": SubResource("CompressedTexture2D_0kbtr")
 }, {
 "duration": 1.0,
-"texture": ExtResource("15_nog20")
+"texture": SubResource("CompressedTexture2D_8qtvo")
 }, {
 "duration": 1.0,
-"texture": ExtResource("16_piwxb")
+"texture": SubResource("CompressedTexture2D_4b7uh")
 }, {
 "duration": 1.0,
-"texture": ExtResource("17_20tj2")
+"texture": SubResource("CompressedTexture2D_hffwr")
 }, {
 "duration": 1.0,
-"texture": ExtResource("18_h3puo")
+"texture": SubResource("CompressedTexture2D_isiwv")
 }, {
 "duration": 1.0,
-"texture": ExtResource("19_ivcu0")
+"texture": SubResource("CompressedTexture2D_wddso")
 }, {
 "duration": 1.0,
 "texture": null
@@ -114,76 +211,76 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
-"texture": ExtResource("20_ns7tg")
+"texture": SubResource("CompressedTexture2D_n5ifn")
 }, {
 "duration": 1.0,
-"texture": ExtResource("21_hv4ym")
+"texture": SubResource("CompressedTexture2D_vojsl")
 }, {
 "duration": 1.0,
-"texture": ExtResource("22_k6we8")
+"texture": SubResource("CompressedTexture2D_rsqia")
 }, {
 "duration": 1.0,
-"texture": ExtResource("23_2e0n4")
+"texture": SubResource("CompressedTexture2D_lk1mr")
 }, {
 "duration": 1.0,
-"texture": ExtResource("24_wgcyt")
+"texture": SubResource("CompressedTexture2D_t5ppf")
 }, {
 "duration": 1.0,
-"texture": ExtResource("25_8m458")
+"texture": SubResource("CompressedTexture2D_dn2eb")
 }, {
 "duration": 1.0,
-"texture": ExtResource("26_2hsc6")
+"texture": SubResource("CompressedTexture2D_fncnm")
 }, {
 "duration": 1.0,
-"texture": ExtResource("27_47a8l")
+"texture": SubResource("CompressedTexture2D_8jdnd")
 }, {
 "duration": 1.0,
-"texture": ExtResource("28_41fbp")
+"texture": SubResource("CompressedTexture2D_1k1x1")
 }, {
 "duration": 1.0,
-"texture": ExtResource("29_c4e5d")
+"texture": SubResource("CompressedTexture2D_oa3f4")
 }, {
 "duration": 1.0,
-"texture": ExtResource("30_guy5b")
+"texture": SubResource("CompressedTexture2D_jdj1v")
 }, {
 "duration": 1.0,
-"texture": ExtResource("31_de2nd")
+"texture": SubResource("CompressedTexture2D_0x8pa")
 }, {
 "duration": 1.0,
-"texture": ExtResource("32_abwwv")
+"texture": SubResource("CompressedTexture2D_f1mwg")
 }, {
 "duration": 1.0,
-"texture": ExtResource("33_yqwrg")
+"texture": SubResource("CompressedTexture2D_17sds")
 }, {
 "duration": 1.0,
-"texture": ExtResource("34_54bdh")
+"texture": SubResource("CompressedTexture2D_p4e3u")
 }, {
 "duration": 1.0,
-"texture": ExtResource("35_qk56m")
+"texture": SubResource("CompressedTexture2D_ho5le")
 }, {
 "duration": 1.0,
-"texture": ExtResource("36_5yyty")
+"texture": SubResource("CompressedTexture2D_pbslx")
 }, {
 "duration": 1.0,
-"texture": ExtResource("37_476yn")
+"texture": SubResource("CompressedTexture2D_6na3a")
 }, {
 "duration": 1.0,
-"texture": ExtResource("38_bmfb2")
+"texture": SubResource("CompressedTexture2D_cflyr")
 }, {
 "duration": 1.0,
-"texture": ExtResource("39_qg871")
+"texture": SubResource("CompressedTexture2D_nk5pe")
 }, {
 "duration": 1.0,
-"texture": ExtResource("40_7gk2b")
+"texture": SubResource("CompressedTexture2D_gl8y3")
 }, {
 "duration": 1.0,
-"texture": ExtResource("41_lbtps")
+"texture": SubResource("CompressedTexture2D_v68ao")
 }, {
 "duration": 1.0,
-"texture": ExtResource("42_gma7r")
+"texture": SubResource("CompressedTexture2D_lsneg")
 }, {
 "duration": 1.0,
-"texture": ExtResource("43_u75h8")
+"texture": SubResource("CompressedTexture2D_5bpxw")
 }],
 "loop": true,
 "name": &"walk",
@@ -195,7 +292,9 @@ size = Vector2(20, 27)
 
 [node name="Hotdog" type="Area2D"]
 collision_layer = 4
-script = ExtResource("1_mb2ai")
+script = SubResource("GDScript_x2i5b")
+horizontal_speed = null
+vertical_speed = null
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 position = Vector2(-4.54747e-13, -5)

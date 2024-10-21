@@ -65,11 +65,12 @@ func _on_area_2d_area_entered(area: Area2D) -> void:
 		handle_enemy_collision(area)
 		
 func handle_enemy_collision(enemy: Enemy):
-	if enemy == null:
+	if enemy == null:	
 		return
 	
 	if is_instance_of(enemy, blueberry) and (enemy as blueberry).in_a_shell:
 		(enemy as blueberry).on_stomp(global_position)
+		spawn_points_label(enemy)
 	else:
 		var angle_of_collision = rad_to_deg(position.angle_to_point(enemy.position))
 		

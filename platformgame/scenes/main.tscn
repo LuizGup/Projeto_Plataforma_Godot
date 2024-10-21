@@ -1,30 +1,38 @@
 [gd_scene load_steps=13 format=4 uid="uid://cry42f15hv5ck"]
 
-[ext_resource type="Texture2D" uid="uid://bh2i2pbd72n30" path="res://assets/Sprites/GroundBlock.png" id="1_0v4um"]
-[ext_resource type="Texture2D" uid="uid://8as4lix1a8pr" path="res://assets/Sprites/HardBlock.png" id="2_8yl0l"]
-[ext_resource type="Texture2D" uid="uid://dbhkvad8kmca" path="res://assets/Sprites/UndergroundBlock.png" id="3_jqdv6"]
-[ext_resource type="Texture2D" uid="uid://dtkrgfs1x5qrr" path="res://assets/Sprites/UndergroundBrick.png" id="4_f1f0l"]
 [ext_resource type="PackedScene" uid="uid://cxtu2ikb6xsr7" path="res://scenes/player.tscn" id="5_onph0"]
 [ext_resource type="PackedScene" uid="uid://14opns5k1gev" path="res://scenes/hotdog.tscn" id="6_ot3na"]
 [ext_resource type="PackedScene" uid="uid://dpr322cgvlag2" path="res://scenes/blueberry.tscn" id="7_tqwyj"]
 
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_ssc66"]
+load_path = "res://.godot/imported/GroundBlock.png-3995fe56ffb27fab16d0e4493233330c.ctex"
+
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_vyajv"]
-texture = ExtResource("1_0v4um")
+texture = SubResource("CompressedTexture2D_ssc66")
 0:0/0 = 0
 0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_h5pw1"]
+load_path = "res://.godot/imported/HardBlock.png-5bde735f5259842e1ba1b57465f449b5.ctex"
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_wd3ur"]
-texture = ExtResource("2_8yl0l")
+texture = SubResource("CompressedTexture2D_h5pw1")
 0:0/0 = 0
 0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_jhoul"]
+load_path = "res://.godot/imported/UndergroundBlock.png-a29cb81c6a0b14f3e128cfb0c07327a9.ctex"
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_acgdg"]
-texture = ExtResource("3_jqdv6")
+texture = SubResource("CompressedTexture2D_jhoul")
 0:0/0 = 0
 0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_en17a"]
+load_path = "res://.godot/imported/UndergroundBrick.png-b514fbd2f629247c994f472c2fb746dd.ctex"
+
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_je3u1"]
-texture = ExtResource("4_f1f0l")
+texture = SubResource("CompressedTexture2D_en17a")
 0:0/0 = 0
 0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 
